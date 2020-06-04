@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Forms</title>
+	</head>
+	<body>
+		<h1>Please complete this survey!</h1>
+		<form>
+		<table cellspacing=10>
+			<tr>
+				<td colspan=3><b>Personal Information</b></td>
+			</tr>
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>Phone:</td>
+				<td><input type="text" name="phone"></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><input type="text" name="address"></td>
+			</tr>
+			<tr>
+				<td>Age:</td>
+				<td><input type="radio" name="age" value="0<18">0<18</td>
+				<td><input type="radio" name="age" value="18-25">18-25</td>
+				<td><input type="radio" name="age" value="0>25">0>25</td>
+			</tr>
+			<tr>
+				<td colspan=4><hr></td>
+			</tr>
+			<tr>
+				<td colspan=3><b>General Information:</b></td>
+			</tr>
+			<tr>
+				<td colspan=3>Hobbies: Check all that apply</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="hobby" value="carting">carting</td>
+				<td><input type="checkbox" name="hobby" value="swimming">swimming</td>
+				<td><input type="checkbox" name="hobby" value="tennis">tennis</td>
+			</tr>
+			<tr>
+				<td>Types of movies:</td>
+				<td>
+					<select>
+						<option>Sci-Fi</option>
+						<option>Comedy</option>
+						<option>Drama</option>
+						<option>Action</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="center"><input type="submit" name="submit" value="Submit"></td>
+				<td align="right"><input type="reset" name="reset" value="Reset"></td>
+			</tr>
+		</table>
+		</form>
+		
+		<footer>
+			<pre>
+			<a href="page3.html" align="left">back</a>  <a href="" align="right">....</a>
+			</pre>
+		</footer>
+	</body>
+</html>
