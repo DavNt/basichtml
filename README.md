@@ -1,2 +1,5 @@
-# basichtml
-basic html layout; tables, frames, list, links
+# basic html
+basic html layout; tables, frames, list, links, images
+
+## check it out
+https://davnt.github.io/basichtml/
