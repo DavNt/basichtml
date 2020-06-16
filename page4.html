@@ -1,69 +1,54 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Forms</title>
+		<title>HTML/CSS - Forms</title>
+		<!-- icons
+		================================================== -->
+		<link rel="shortcut icon" href="img/byd.png" >
+		<!-- css bootstrap.min
+		================================================== -->
+		<link rel="stylesheet" href="css/default.css">
+		<!-- Mobile Specific Metas
+		================================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	</head>
 	<body>
+		<div class="section" id="pg4">
 		<h1>Please complete this survey!</h1>
 		<form>
-		<table cellspacing=10>
-			<tr>
-				<td colspan=3><b>Personal Information</b></td>
-			</tr>
-			<tr>
-				<td>Name:</td>
-				<td><input type="text" name="name"></td>
-			</tr>
-			<tr>
-				<td>Phone:</td>
-				<td><input type="text" name="phone"></td>
-			</tr>
-			<tr>
-				<td>Address:</td>
-				<td><input type="text" name="address"></td>
-			</tr>
-			<tr>
+				<b>Personal Information</b><br />
+				<input type="text" name="name" placeholder="Name"><br />
+				<input type="text" name="phone" placeholder="Phone"><br />
+				<input type="text" name="address" placeholder="Address"><br />
+			
+				<table id="pg4table" align="center">
+				<tr>
 				<td>Age:</td>
 				<td><input type="radio" name="age" value="0<18">0<18</td>
 				<td><input type="radio" name="age" value="18-25">18-25</td>
 				<td><input type="radio" name="age" value="0>25">0>25</td>
-			</tr>
-			<tr>
-				<td colspan=4><hr></td>
-			</tr>
-			<tr>
-				<td colspan=3><b>General Information:</b></td>
-			</tr>
-			<tr>
-				<td colspan=3>Hobbies: Check all that apply</td>
-			</tr>
-			<tr>
+				</tr><tr>
+				<td colspan=4><b>General Information:</b></td>
+				</tr><tr>
+				<td>Hobbies:</td>
 				<td><input type="checkbox" name="hobby" value="carting">carting</td>
-				<td><input type="checkbox" name="hobby" value="swimming">swimming</td>
+				<td><input type="checkbox" name="hobby" value="swimming">swimming</td>   
 				<td><input type="checkbox" name="hobby" value="tennis">tennis</td>
-			</tr>
-			<tr>
-				<td>Types of movies:</td>
-				<td>
+				</tr></table>
+				<label>Types of movies:
 					<select>
 						<option>Sci-Fi</option>
 						<option>Comedy</option>
 						<option>Drama</option>
 						<option>Action</option>
-					</select>
-				</td>
-			</tr>
-			<tr>
-				<td align="center"><input type="submit" name="submit" value="Submit"></td>
-				<td align="right"><input type="reset" name="reset" value="Reset"></td>
-			</tr>
-		</table>
+					</select></label>
+				<hr />
+				<input class="button" type="submit" name="submit" value="Submit"><hr >
+				<input class="button" type="reset" name="reset" value="Reset">
 		</form>
-		
-		<footer>
-			<pre>
-			<a href="page3.html" align="left">back</a>  <a href="" align="right">....</a>
-			</pre>
-		</footer>
+		</div>
+		<div class="pages">
+			<a href="page3.html" align="left">back</a> ....
+		</div>
 	</body>
 </html>

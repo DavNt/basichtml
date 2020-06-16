@@ -1,0 +1,97 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+.section {
+	background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#header {
+	text-align: center;
+	background-image: url(../img/cubes.jpg)
+}
+#header h1 {
+	text-shadow: 6px 3px 5px #2F4F4F;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #7FFF00
+}
+hr {
+	border: 0;
+	height: 1px;
+	background: #FFF0F5;
+}
+ul {
+	list-style: circle;
+	list-style-position: inside;
+}
+.pages {
+	margin-bottom: 0;
+	text-align: center;
+}
+.pages a {
+	color: #800080
+	a:hover: #0000CD
+}
+
+#pg2table {
+    width: 100%;
+}
+#pg2table, #pg2table th, #pg2table td {
+    border: 2px solid #191970;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+
+form {
+    text-align: center;
+    margin-top: 0;
+	padding: 2px;
+}
+.button {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.button:hover {
+    background-color: #43a09d;
+}
+input {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+
+#pg4 h1{
+	text-align: center;
+}
+/*.radio-inline {
+	display: inline;
+}
+#pg4table {
+	position: center;
+}*/
